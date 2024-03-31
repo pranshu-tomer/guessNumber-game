@@ -1,0 +1,81 @@
+body{
+    color: white;
+    background-color: #212121;
+}
+
+h1,p {
+    text-align: center;
+}
+
+.taking-range {
+    margin-top: 7%;
+}
+
+input {
+    width: 60px;
+    height: 25px;
+    border: 2px solid black;
+    padding-inline: 10px;
+    padding-block: 5px;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.range,.guess {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.btn {
+    width: 110px;
+    height: 40px;
+    padding-inline: 10px;
+    padding-block: 5px;
+    border-radius: 1rem;
+    font-weight: 700;
+    text-align: center;
+    border: 2px solid green;
+    margin-inline: 25px;
+}
+
+.btn:hover{
+    background-color: green;
+    color: black;
+}
+
+#guessNumber{
+    width: 200px;
+}
+
+.game-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+.hints{
+    margin-top: 20px;
+    padding-block: 20px;
+    padding-inline: 20px;
+    width: 300px;
+    border-radius: 1rem;
+    border: 1px solid black;
+    background-color: #212121;
+}
+
+.abort {
+    margin-top: 20px;
+    width: 300px;
+}
+
+.result{
+    text-align: center;
+}
+
+.hide{
+    display: none;
+}

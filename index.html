@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess A Number</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Let's have Some Fun :-) </h1>
+    <p>Game is related to guess a Number.</p>
+    <p>You have to guess a number between start and end Number given by you in given numbers of turns</p>
+    <div class="taking-range">
+        <div class="range">
+            <h3>Choose Range : </h3>
+            <input type="text" id="start" placeholder="1">
+            <h4>To</h4>
+            <input type="text" id="end" placeholder="100">
+        </div>
+        <div class="guess">
+            <h3>Turns needed to win :</h3>
+            <input type="text" id="numberOfGuess" placeholder="10">
+            <button class="btn" id="startGame">Start ==></button>
+        </div>
+    </div>
+    <div class="game-box hide">
+        <h2>Guess Number</h2>
+        <div class="input">
+            <input type="text" id="guessNumber" placeholder="So What you think !!">
+            <button class="btn" id="validate">Check It :-)</button>
+        </div>
+        <div class="hints">
+            <h3>Previous Guesses :- <span id="previous"></span></h3>
+            <h3>Turns Remaining :- <span id="remain"></span></h3>
+        </div>
+        <button class="btn abort hide">Let's Try Again :-)</button>
+    </div>
+    <div class="result"></div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
